@@ -1,0 +1,118 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-07-22T09:36:40.589Z",
+        "line": 4,
+        "name": "SignUp/Register",
+        "description": "",
+        "id": "test-me-app;signup/register",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 843512,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I want to register new user",
+            "match": {
+              "location": "Register.i_want_to_register_new_user()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5171046622,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I open the TestMeApp URL",
+            "match": {
+              "location": "Register.i_open_the_TestMeApp_URL()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 400358124,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on register/Signup",
+            "match": {
+              "location": "Register.click_on_register_Signup()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1121049766,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i enter my data",
+            "match": {
+              "location": "Register.i_enter_my_data(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "Firstname",
+                  "Lastname",
+                  "Password",
+                  "ConfirmPassword",
+                  "Gender",
+                  "Email",
+                  "Mobile no",
+                  "DOB",
+                  "Address",
+                  "S Question",
+                  "Answer"
+                ]
+              },
+              {
+                "cells": [
+                  "gokulram",
+                  "gokul",
+                  "ram",
+                  "gokulMEC123",
+                  "gokulMEC123",
+                  "Male",
+                  "15euee029@gmail.com",
+                  "8825991969",
+                  "07/03/1998",
+                  "bgihgthhgwer",
+                  "What is your pet name?",
+                  "Tommy"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 103186231,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user click on register",
+            "match": {
+              "location": "Register.the_user_click_on_register()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Test Me App",
+    "description": "",
+    "id": "test-me-app",
+    "keyword": "Feature",
+    "uri": "classpath:Testing/Testing/ScenarioC1.feature",
+    "tags": []
+  }
+]
